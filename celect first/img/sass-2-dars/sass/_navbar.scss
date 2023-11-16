@@ -1,0 +1,29 @@
+.navbar{
+    background-color: $teal;
+    color: #fff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    &__content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__logo{
+        font-size: 40px;
+        color: darkred;
+    }
+    &__menu{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+    a{
+        font-size: 20px;
+
+        &:hover{
+            
+            color: darkred;
+        }
+    }
+}

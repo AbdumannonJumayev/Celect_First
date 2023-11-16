@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+$teal: rgb(53, 87, 87);
+$areal: Arial, Helvetica, sans-serif;
+
+ul,li{
+    list-style: none;
+
+}
+
+body{
+    font-family:$areal ;
+}
+.container{
+    width: 100%;
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+@import "_navbar.scss";
+@import "_header.scss"
